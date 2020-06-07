@@ -99,23 +99,23 @@ const movieTemplate = (movieDetail) => {
 			</div>
     </article>
     <article class="notification is-primary">
-      <p class="title">${movieTemplate.Awards}</p>
+      <p class="title">${movieDetail.Awards}</p>
       <p class="subtitle">Awards</p>
     </article>
     <article class="notification is-primary">
-      <p class="title">${movieTemplate.BoxOffice}</p>
+      <p class="title">${movieDetail.BoxOffice}</p>
       <p class="subtitle">Box Office</p>
     </article>
     <article class="notification is-primary">
-      <p class="title">${movieTemplate.Metascore}</p>
+      <p class="title">${movieDetail.Metascore}</p>
       <p class="subtitle">Metascore</p>
     </article>
     <article class="notification is-primary">
-      <p class="title">${movieTemplate.imdbRating}</p>
+      <p class="title">${movieDetail.imdbRating}</p>
       <p class="subtitle">IMDB Rating</p>
     </article>
     <article class="notification is-primary">
-      <p class="title">${movieTemplate.imdbVotes}</p>
+      <p class="title">${movieDetail.imdbVotes}</p>
       <p class="subtitle">IMDB Votes</p>
     </article>
 	`;
